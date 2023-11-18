@@ -1,8 +1,8 @@
 # Automatic-test-Pattern-Generator-using-PODEM
 
 ATPG is an Automatic Test Pattern Generator whose primary goal is to generate the test vectors that help detect and diagnose faults in the circuit.
-The three major steps in the generation of test patterns or stuck at fault are:<br />
-Fault sensitization/Activation: generate a distinguishable value at the fault site by applying value to PI.<br />
+The three major steps in the generation of test patterns or stuck at fault are:<br /><br />
+Fault sensitization: generate a distinguishable value at the fault site by applying value to PI.<br />
 Line Justification(LJ): Apply primary inputs to sensitize the fault.<br />
 Fault Propagation: Once the fault is activated, we will propagate it to one of the primary outputs<br />
 <br />
